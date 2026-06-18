@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="100%" height="100%" fill="#0b0f13"/>
+  <text x="40" y="60" fill="#ffffff" font-family="Arial" font-size="28" font-weight="700">Ranked Violations — Annotated</text>
+
+  <!-- Simple representation -->
+  <rect x="60" y="100" width="440" height="220" rx="8" fill="#111418" stroke="#2b3440"/>
+  <rect x="60" y="350" width="440" height="200" rx="8" fill="#111418" stroke="#2b3440"/>
+
+  <!-- Annotations circles and notes -->
+  <circle cx="540" cy="160" r="14" fill="#ff5964" />
+  <text x="536" y="164" fill="#fff" font-size="12" font-weight="700">1</text>
+  <text x="568" y="158" fill="#cbd5de">Worst slack path (Rank 1)</text>
+
+  <circle cx="540" cy="420" r="14" fill="#ffb86b" />
+  <text x="536" y="424" fill="#111" font-size="12" font-weight="700">2</text>
+  <text x="568" y="418" fill="#cbd5de">Secondary violation (Rank 2)</text>
+
+  <text x="60" y="580" fill="#9aa3ad" font-size="13">Callouts: 1) Fix pipeline insertion  2) Buffer/fanout fixes</text>
+</svg>

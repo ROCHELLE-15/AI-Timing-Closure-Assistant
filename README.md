@@ -2,17 +2,17 @@
 
 ## Description
 
-AI Timing Closure Assistant is a lightweight EDA-inspired tool for analyzing Static Timing Analysis (STA) reports. The project parses .rpt timing reports, detects timing violations (negative slack), ranks the worst paths, suggests engineering fixes via a rule-based recommender, and offers a simple ML model to predict slack from design parameters.
+AI Timing Closure Assistant is a lightweight EDA-inspired tool for analyzing Static Timing Analysis (STA) reports. The tool parses .rpt timing reports, detects timing violations (negative slack), ranks the worst paths, suggests engineering fixes via a rule-based recommender, and offers a simple ML model to predict slack from design parameters.
 
-This repository includes a Streamlit dashboard for interactive exploration of timing data and quick AI-assisted recommendations.
+A Streamlit dashboard provides an interactive UI to upload reports, inspect slack distributions, review ranked violations with suggested fixes, and run AI predictions.
 
 ## Features
 
 - STA report parsing (arrival, required, slack extraction)
 - Violation detection and ranking (worst slack first)
 - Rule-based recommendation engine for fixes
-- ML-based slack prediction using RandomForestRegressor
-- Streamlit dashboard with three tabs for analysis, violations, and AI predictions
+- ML-based slack prediction using RandomForestRegressor (synthetic data)
+- Streamlit dashboard with tabs for analysis, violations, and AI predictions
 
 ## Tech Stack
 
@@ -35,6 +35,35 @@ AI-Timing-Closure-Assistant/
 - sample_report.rpt - Example timing report to try the app
 - requirements.txt - Python dependencies
 - README.md        - This file
+- assets/          - UI screenshots and annotated mockups
+
+## Screenshots
+
+Below are screenshots of the Streamlit dashboard demonstrating the key views.
+
+### App hero / Upload area
+
+![App Hero](assets/mockup.svg)
+
+*Upload area and header for the AI Timing Closure Assistant.*
+
+### Slack Distribution (Timing Analysis)
+
+![Slack Distribution](assets/screenshot_3.svg)
+
+*Matplotlib histogram showing distribution of path slacks and summary metrics.*
+
+### Ranked Violations (Worst First)
+
+![Ranked Violations](assets/screenshot_2.svg)
+
+*Ranked list of violating paths (most negative slack first) with suggested fixes.*
+
+### AI Slack Prediction Engine
+
+![AI Prediction](assets/screenshot_1.svg)
+
+*Interactive prediction UI: logic depth, fanout inputs, predicted slack, and risk level.*
 
 ## How to Run
 
@@ -43,7 +72,7 @@ AI-Timing-Closure-Assistant/
 ```bash
 python -m venv venv
 source venv/bin/activate   # macOS/Linux
-venv\\Scripts\\activate      # Windows
+venv\Scripts\activate      # Windows
 ```
 
 2. Install dependencies:

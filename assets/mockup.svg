@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="100%" height="100%" fill="#0b0f13"/>
+  <text x="40" y="60" fill="#ffffff" font-family="Arial" font-size="42" font-weight="700">AI Timing Closure Assistant</text>
+  <text x="40" y="110" fill="#9aa3ad" font-family="Arial" font-size="16">Upload STA timing reports and analyze violations using AI + Engineering rules</text>
+
+  <!-- Upload box -->
+  <rect x="40" y="150" width="1120" height="70" rx="10" fill="#111418" stroke="#2b3440"/>
+  <text x="64" y="194" fill="#cbd5de" font-size="14">📁 Upload Timing Report (.rpt)    [ Upload button ]    200MB per file</text>
+
+  <!-- annotations -->
+  <circle cx="1220" cy="170" r="18" fill="#7afcff" />
+  <text x="1214" y="176" fill="#111" font-size="14" font-weight="700">1</text>
+  <text x="1248" y="172" fill="#cbd5de" font-size="13">Upload area</text>
+
+  <text x="40" y="240" fill="#9aa3ad" font-size="12">(This mockup and the annotated images are stored in /assets/)</text>
+</svg>

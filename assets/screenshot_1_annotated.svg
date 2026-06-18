@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="100%" height="100%" fill="#0b0f13"/>
+  <text x="40" y="60" fill="#ffffff" font-family="Arial" font-size="28" font-weight="700">AI Slack Prediction Engine — Annotated</text>
+
+  <!-- base UI simplified -->
+  <rect x="40" y="110" rx="6" ry="6" width="700" height="44" fill="#1f2933"/>
+  <rect x="40" y="170" rx="6" ry="6" width="700" height="44" fill="#1f2933"/>
+  <rect x="40" y="240" width="140" height="40" rx="6" fill="#0b6bff"/>
+  <rect x="40" y="340" width="1100" height="60" rx="8" fill="#6b5d10"/>
+
+  <!-- Annotations -->
+  <circle cx="820" cy="130" r="16" fill="#ff5964" />
+  <text x="815" y="135" fill="#fff" font-size="12" font-weight="700">1</text>
+  <text x="850" y="128" fill="#cbd5de" font-size="14">Uploaded file</text>
+
+  <circle cx="820" cy="190" r="16" fill="#ffb86b" />
+  <text x="816" y="196" fill="#111" font-size="12" font-weight="700">2</text>
+  <text x="850" y="188" fill="#cbd5de" font-size="14">Logic depth & fanout controls</text>
+
+  <circle cx="820" cy="250" r="16" fill="#7afcff" />
+  <text x="816" y="257" fill="#111" font-size="12" font-weight="700">3</text>
+  <text x="850" y="250" fill="#cbd5de" font-size="14">Predict button</text>
+
+  <circle cx="820" cy="380" r="16" fill="#b78aff" />
+  <text x="815" y="386" fill="#fff" font-size="12" font-weight="700">4</text>
+  <text x="850" y="378" fill="#cbd5de" font-size="14">Risk level banner</text>
+
+  <!-- legend -->
+  <text x="40" y="440" fill="#9aa3ad" font-size="13">Annotations: 1) file  2) inputs  3) action  4) result/risk</text>
+
+</svg>

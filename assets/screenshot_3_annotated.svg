@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="100%" height="100%" fill="#0b0f13"/>
+  <text x="40" y="60" fill="#ffffff" font-family="Arial" font-size="28" font-weight="700">Slack Distribution — Annotated</text>
+
+  <rect x="60" y="100" width="760" height="440" rx="8" fill="#ffffff"/>
+  <text x="420" y="120" fill="#111" font-family="Arial" font-size="16" text-anchor="middle">Slack Distribution</text>
+
+  <!-- annotated bars with labels -->
+  <rect x="140" y="420" width="80" height="160" fill="#1f77b4"/>
+  <text x="180" y="410" fill="#fff" font-size="12">-0.7</text>
+  <rect x="260" y="420" width="80" height="160" fill="#1f77b4"/>
+  <text x="300" y="410" fill="#fff" font-size="12">-0.5</text>
+  <rect x="540" y="420" width="80" height="160" fill="#1f77b4"/>
+  <text x="580" y="410" fill="#fff" font-size="12">0.0</text>
+  <rect x="660" y="420" width="80" height="160" fill="#1f77b4"/>
+  <text x="700" y="410" fill="#fff" font-size="12">0.2</text>
+
+  <text x="60" y="570" fill="#9aa3ad" font-size="13">Annotated: bars show counts at key slack thresholds (-0.7, -0.5, 0.0, 0.2)</text>
+</svg>

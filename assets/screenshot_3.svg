@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="100%" height="100%" fill="#0b0f13"/>
+  <text x="40" y="60" fill="#ffffff" font-family="Arial" font-size="34" font-weight="700">Slack Distribution Analysis</text>
+
+  <!-- Chart box -->
+  <rect x="60" y="100" width="760" height="440" rx="8" fill="#ffffff"/>
+  <text x="420" y="120" fill="#111" font-family="Arial" font-size="16" text-anchor="middle">Slack Distribution</text>
+
+  <!-- four bars -->
+  <rect x="140" y="420" width="80" height="160" fill="#1f77b4"/>
+  <rect x="260" y="420" width="80" height="160" fill="#1f77b4"/>
+  <rect x="540" y="420" width="80" height="160" fill="#1f77b4"/>
+  <rect x="660" y="420" width="80" height="160" fill="#1f77b4"/>
+
+  <!-- Summary metrics -->
+  <text x="60" y="570" fill="#cbd5de" font-size="14">Total Paths: <tspan fill="#8ef0c0">4</tspan></text>
+  <text x="200" y="570" fill="#cbd5de" font-size="14">Violations: <tspan fill="#8ef0c0">2</tspan></text>
+  <text x="360" y="570" fill="#cbd5de" font-size="14">OK Paths: <tspan fill="#8ef0c0">2</tspan></text>
+
+</svg>
