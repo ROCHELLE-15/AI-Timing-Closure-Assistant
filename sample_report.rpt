@@ -1,0 +1,25 @@
+# Sample STA timing report
+
+Path 1:
+  Startpoint: FF_A
+  Endpoint: FF_B
+  Arrival Time: 10.500ns
+  Required Time: 10.000ns
+  Slack: -0.500
+
+Path 2:
+  Startpoint: FF_C
+  Endpoint: FF_D
+  Arrival Time: 9.000ns
+  Required Time: 10.000ns
+  Slack: 1.000
+
+Path 3:
+  Startpoint: FF_E
+  Endpoint: FF_F
+  Arrival Time: 11.200ns
+  Required Time: 10.000ns
+  Slack: -1.200
+
+# Inline table-style path
+FF_G FF_H 8.0 10.0 2.0
